@@ -1,7 +1,7 @@
-id: T2Q7PTDtAES5FPkzAjehhg
+id: HqsRsTWoFE--yz6D2iqjHQ
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T14:27:53.5383175Z
+created: 2022-08-03T14:33:52.0657525Z
 protocol: 1
 tests:
 - id: m4OogKGezEi_dAWv27d6zQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T14:27:53.0000000
-  modificationDate: 2022-08-03T14:27:53.0000000
+  modificationDate: 2022-08-03T14:33:39.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -50,12 +50,503 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: eZJM9APRK02UkJ6AqjqNTA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: IjMO3PW3qEidHGZ0RqRfTw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: jb-cCcOZ1EyV5z0pg8l1Gg
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 9e2rcbh_Gkaw5_AmcywjtA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iblZMlh-UUuCEcyaTjb5eg
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: r7E-vWWiOUCd-neR1SYDsQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 3BaeqHlePkCIT2lvmnZf_A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: KqCVk42axkOHorYD6ts2oA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: DCtDvEjcgkqurxLdkkgVSw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: KqCVk42axkOHorYD6ts2oA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: xxD4GvUHS0iFxncxjhpP2Q
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: 2wG-gQyUx0iIXhoCnAVxyQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Invite Identity
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: qWk0sngPY0-s0zsYbPbnjg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: RwohrRha7UuOMOF-m9Sqag
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: umo0NCZHOU2sYK0vJcwh7w
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: lCLtl9VEb0GTw7eanvJelg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OsGjtFkk6Ua0V-JwHbDwgA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: wWXpP_YtqkaujGtn-iYCog
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tbGDikLyFkWigPcd5yAvPA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: lvDhhzuLDk2zL9N9601dQQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 7V29MlavEkqqdsXGJ7or_A
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: XP2Bj1bIaU2w70cysLJUWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eyHcI_AVjkOkriosJBvqWA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: XP2Bj1bIaU2w70cysLJUWg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KXuKAOvXp0-seSjOp5hbhA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: sJb0zkqxTUGTzk85YpAozg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: pf6VoACp7EiHNhRC8S7BDw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: sJb0zkqxTUGTzk85YpAozg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a59f3a20-d08d-4293-9add-b279f92e6c41
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: VNxelRJ94kqYxPZ1hxQgeA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: dzAn9vuOT0GDMfpfQANaKg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: a9ab4ae7-38ca-4451-a636-1b801a774503
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://dev.shastacloud.com/
     type: Input
 auxTests: []
-elements: []
+elements:
+- id: IjMO3PW3qEidHGZ0RqRfTw
+  name: Organization
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Organization']
+    priority: 0
+  - name: XPATH
+    value: //span/span[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[1]/div/div/div/ul/button[6]/span/span[2]
+    priority: 2
+- id: 9e2rcbh_Gkaw5_AmcywjtA
+  name: My Organization
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'My Organization']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[1]/div/div/div/ul/div/ul/div[1]/a
+    priority: 2
+- id: r7E-vWWiOUCd-neR1SYDsQ
+  name: Identities
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Identities']
+    priority: 0
+  - name: XPATH
+    value: //li[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div/ul/li[2]/a
+    priority: 2
+- id: KqCVk42axkOHorYD6ts2oA
+  name: Invite1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Invite']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div[2]/div[3]/a
+    priority: 2
+- id: XP2Bj1bIaU2w70cysLJUWg
+  name: Send Invite
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Send Invite']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/form/div[3]/button
+    priority: 2
+- id: 2wG-gQyUx0iIXhoCnAVxyQ
+  name: Invite Identity
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h2[. = 'Invite Identity']
+    priority: 0
+  - name: XPATH
+    value: //h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/h2
+    priority: 2
+- id: RwohrRha7UuOMOF-m9Sqag
+  name: DIV6
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //form/div[1]/div[1]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/form/div[1]/div[1]/div
+    priority: 1
+- id: lCLtl9VEb0GTw7eanvJelg
+  name: DIV7
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //form/div[1]/div[2]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/form/div[1]/div[2]/div
+    priority: 1
+- id: wWXpP_YtqkaujGtn-iYCog
+  name: DIV8
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //form/div[2]/div[1]/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/form/div[2]/div[1]/div
+    priority: 1
+- id: lvDhhzuLDk2zL9N9601dQQ
+  name: DIV9
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //form/div[2]/div[2]
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/form/div[2]/div[2]
+    priority: 1
+- id: sJb0zkqxTUGTzk85YpAozg
+  name: Discard1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Discard']
+    priority: 0
+  - name: XPATH
+    value: //div[3]/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/form/div[3]/span
+    priority: 2
+- id: dzAn9vuOT0GDMfpfQANaKg
+  name: DIV10
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[2]/div[2]/div/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div
+    priority: 1
 projectParameters: []
 addons: []
