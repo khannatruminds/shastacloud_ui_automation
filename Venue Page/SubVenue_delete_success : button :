@@ -1,0 +1,529 @@
+id: QiQT_wHY10ycqeRJzrasPA
+projectId: Kn-yyr8dzEW8BxxnZx-EfA
+projectName: shastacloud_ui_automation
+created: 2022-08-03T10:33:39.4298520Z
+protocol: 1
+tests:
+- id: T1dIeYkVOk-43QdBgwR_xQ
+  name: 'SubVenue_delete_success : button :'
+  description: >-
+    not working yet : bug in address bar
+
+    Deleting sub venue from button in all venues
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-08-03T09:42:28.0000000
+  modificationDate: 2022-08-03T10:33:38.0000000
+  settings:
+    automationAssistant: true
+    appId: uew3Eq13WkmYCgW_RLbXNA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uew3Eq13WkmYCgW_RLbXNA
+    name: Shasta Web
+    url: https://dev.shastacloud.com/
+    platform: Web
+  steps:
+  - id: 3X3KDt1t2EuxOkgU4LNPmA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: iatHWOlbPUyQIjIRR0btNw
+    comments: >
+      login for venue adding
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: t9vbiBVuRESoBnDTB9V_dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{venue_add_mailS}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: OPjBaCnb206kgsdaO3_54g
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: u2eImyZGkEG7ECqWcOUmrQ
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{venue_add_pswdS}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: Wvx1ELQF2U2Nr5ZxVKbY7Q
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: G7o2Sa3czk6aD-iIUPZ9ig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: _3KBoIpWE0-sdL2WqYnkdw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: DOFhwfex4kGLALRhfAf5ug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: KK2rCQbk1kOW-eV5aSprFA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: DOFhwfex4kGLALRhfAf5ug
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Venues
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: wE8seVdf9kC1sajHka4glQ
+    enabled: true
+    invertResult: false
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: RU_RTHG_PUqdsnHaAjot5g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rVEH_93wiEqdz1qPRwjBvQ
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: RU_RTHG_PUqdsnHaAjot5g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{venue_name}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: EEGFH8g9qEGkV6CQWwJv3g
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 10
+    repeat: 1
+    type: Action
+    elementId: J67dD1G8FUOt__b0CPs2KQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: '{{venue_name}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: eGM3epAthkqPHCv_LaE1RQ
+    enabled: true
+    invertResult: false
+    order: 11
+    repeat: 1
+    type: Action
+    elementId: 6nL7zafGxkGr0flUGlHvKg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R5Ea97onl06FtJwANKANig
+    enabled: true
+    invertResult: false
+    order: 12
+    repeat: 1
+    type: Action
+    elementId: j35X4OS54kG6ZXy--N-Rkg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kGLR4kJe_0eP9fnZEBnMyg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 13
+    repeat: 1
+    type: Action
+    elementId: 6F4mi2LiEkGlj5yvImksdg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Are You Sure?
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: zoB5tzVaT0WP3JqVVkSYjg
+    enabled: true
+    invertResult: false
+    order: 14
+    repeat: 1
+    type: Action
+    elementId: UgTSJXdi7UWTgiSbqcxHMA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://dev.shastacloud.com/
+    type: Input
+  - name: venue_add_mailS
+    description: ''
+    value: shastaad@mailinator.com
+    type: Input
+  - name: venue_add_pswdS
+    description: ''
+    value: Admin@12
+    type: Input
+  - name: venue_name
+    description: ''
+    value: admin venue
+    type: Input
+  - name: venue_address
+    description: ''
+    value: sydey
+    type: Input
+auxTests: []
+elements:
+- id: t9vbiBVuRESoBnDTB9V_dg
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[1]/div/input
+    priority: 3
+- id: cszLLo-0Pki51l2sdBxpCQ
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[2]/div/input
+    priority: 3
+- id: G7o2Sa3czk6aD-iIUPZ9ig
+  name: action
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='action']"
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Continue']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[2]/button
+    priority: 3
+- id: RU_RTHG_PUqdsnHaAjot5g
+  name: Search
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: XPATH
+    value: //input[@placeholder = 'Search']
+    priority: 0
+  - name: XPATH
+    value: //div[2]//input
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[1]/input
+    priority: 2
+- id: DOFhwfex4kGLALRhfAf5ug
+  name: corporate_fare  Venues
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'corporate_fare  Venues']
+    priority: 0
+  - name: XPATH
+    value: //button[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[1]/div/div/div/ul/button[2]/a
+    priority: 2
+- id: 6nL7zafGxkGr0flUGlHvKg
+  name: more_vert
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'more_vert']
+    priority: 0
+  - name: XPATH
+    value: //div/button/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div/div/div/div/ul/li/div[2]/div/div/div/button/span
+    priority: 2
+- id: 6F4mi2LiEkGlj5yvImksdg
+  name: Are You Sure?
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h2[. = 'Are You Sure?']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/div/div/div/h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]/div/div/div[1]/h2
+    priority: 2
+- id: UgTSJXdi7UWTgiSbqcxHMA
+  name: Yes, Delete it
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Yes, Delete it']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/button[2]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[2]/div/div[1]/div/div/div[2]/button[2]
+    priority: 2
+- id: J67dD1G8FUOt__b0CPs2KQ
+  name: returnedListTopElement
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //li/div/div
+    priority: 0
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div/div/div/div/ul/li/div[2]/div
+    priority: 1
+- id: j35X4OS54kG6ZXy--N-Rkg
+  name: Delete1
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //span[. = 'Delete']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div/div/div/div/span
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/div[2]/div[1]/div/div/div/div/ul/li/div[2]/div/div/div/div/span
+    priority: 2
+projectParameters: []
+addons: []
