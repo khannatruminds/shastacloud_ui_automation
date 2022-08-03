@@ -1,7 +1,7 @@
-id: RqJWfUwrGkCa_DJUI8pY4A
+id: 0GNipUPJKU-_d5TEYEcfQw
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T12:28:14.2597654Z
+created: 2022-08-03T12:37:07.3762136Z
 protocol: 1
 tests:
 - id: yVAxUvlHBEaV4zLxD_S8uQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T07:20:49.0000000
-  modificationDate: 2022-08-03T12:27:42.0000000
+  modificationDate: 2022-08-03T12:35:47.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -334,6 +334,90 @@ tests:
       value: '@'
     validations: []
     contexts: []
+  - id: _R01Ko7cPEqjCj9uJlc3TQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 15
+    repeat: 1
+    type: Action
+    elementId: Ubj5_fovtU6ynceWREwe5w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Name should be more than 2 characters
+      direction: Input
+    conditions:
+    - parameter: '{{stringSize}}'
+      type: LTE
+      invert: false
+      value: 2
+    validations: []
+    contexts: []
+  - id: Siw5fEo3eECE5gMDn936ag
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 16
+    repeat: 1
+    type: Action
+    elementId: Ubj5_fovtU6ynceWREwe5w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Name should not be more than 30 characters
+      direction: Input
+    conditions:
+    - parameter: '{{stringSize}}'
+      type: LTE
+      invert: false
+      value: 31
+    validations: []
+    contexts: []
+  - id: iqESbgPN80Ce5Sjn4QGCtw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 17
+    repeat: 1
+    type: Action
+    elementId: Yqjmz29zxkiD5FQxTdLjbQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Required
+      direction: Input
+    conditions:
+    - parameter: '{{stringSize}}'
+      type: Equals
+      invert: false
+      value: 0
+    validations: []
+    contexts: []
   parameters:
   - name: ApplicationURL
     description: Auto generated application URL parameter
@@ -354,6 +438,14 @@ tests:
   - name: venue_address
     description: ''
     value: sydey
+    type: Input
+  - name: stringSize
+    description: ''
+    value: 1
+    type: Input
+  - name: TextBoxOutput
+    description: ''
+    value: ''
     type: Input
   tags:
   - Venue
@@ -516,6 +608,38 @@ elements:
     priority: 1
   - name: XPATH
     value: /html/body/div[1]/div[1]/div/div[2]/div[2]/div/div/div/form/div[1]/div
+    priority: 2
+- id: Ubj5_fovtU6ynceWREwe5w
+  name: Error Message-char limit
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'The request body is invalid. See error object `details` property for more info.']
+    priority: 0
+  - name: XPATH
+    value: //form/div[1]/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div[2]/div[2]/div/div/div/form/div[1]/div
+    priority: 2
+- id: Yqjmz29zxkiD5FQxTdLjbQ
+  name: Required
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'Required']
+    priority: 0
+  - name: XPATH
+    value: //form/div[2]/div[1]/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div[1]/div[1]/div/div[2]/div[2]/div/div/div/form/div[2]/div[1]/div/div
     priority: 2
 projectParameters: []
 addons: []
