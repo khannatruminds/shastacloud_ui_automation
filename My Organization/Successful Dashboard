@@ -1,0 +1,503 @@
+id: Wf2Tu8Lri0CEMiS0U48IYA
+projectId: Kn-yyr8dzEW8BxxnZx-EfA
+projectName: shastacloud_ui_automation
+created: 2022-08-03T10:37:24.0301675Z
+protocol: 1
+tests:
+- id: HLPYEPXodU-2MlzX8wYuLA
+  name: Successful Dashboard
+  description: To load the Dashboard of the Organization
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-08-01T04:10:56.0000000
+  modificationDate: 2022-08-01T04:15:42.0000000
+  settings:
+    automationAssistant: true
+    appId: uew3Eq13WkmYCgW_RLbXNA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uew3Eq13WkmYCgW_RLbXNA
+    name: Shasta Web
+    url: https://dev.shastacloud.com/
+    platform: Web
+  steps:
+  - id: oUPAmetUgUu7EQwgjYpVVw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Test
+    targetTestId: b4lw-tIatUajFEJAuV5_8w
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      source: None
+    parameterMaps:
+    - name: ApplicationURL
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: MXSRyXzap0qRzhjlPJ_pNQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: 2gWacbUlVEu3a0qjAM7IPw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: 5VJ57nLlDkqBpB_aUCN7JA
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: 9e2rcbh_Gkaw5_AmcywjtA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: f2-DD12xK0Gs5NfWVAR5SA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: NuUn6T4_j0KAl3zN8UOpoA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Overview
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: tuG7i2gv70ie-IVQXvCcwA
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: GGGOExSDDUKLKM5-DISoaA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Overview
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fWGgblgUUEGf3PdqaJHHcw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: r7E-vWWiOUCd-neR1SYDsQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Identities
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: fJwyBqrSbU6-SmOlH4_djQ
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: xixyGmPJ3EqTfQR05_B45g
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Settings
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://dev.shastacloud.com/
+    type: Input
+auxTests:
+- id: b4lw-tIatUajFEJAuV5_8w
+  name: Platform_admin_login
+  description: Platform admin login .
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-07-26T05:54:49.0000000
+  modificationDate: 2022-08-03T10:37:23.0000000
+  settings:
+    automationAssistant: true
+    appId: uew3Eq13WkmYCgW_RLbXNA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  steps:
+  - id: UF1t-2GVOk6Jla0YXwq1NA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: plabeRZeekiDctwD-CjWwA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: t9vbiBVuRESoBnDTB9V_dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R7nSKWMgf0SH5Qk35Gz_LQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: t9vbiBVuRESoBnDTB9V_dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ajay.kumawat@truminds.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CuGf-ReblkG2rDafC3U8_g
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rkR5fGEF706AGKb1ssjeog
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Abcd123@#
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SMItAhBbR0esLVPH_UWdhw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: G7o2Sa3czk6aD-iIUPZ9ig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://dev.shastacloud.com/
+    type: Input
+  tags:
+  - platform-admin
+  - login
+  - presetup
+elements:
+- id: 2gWacbUlVEu3a0qjAM7IPw
+  name: SPAN
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: XPATH
+    value: //button/span
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[1]/div/div/div/ul/button[6]/span
+    priority: 1
+- id: 9e2rcbh_Gkaw5_AmcywjtA
+  name: My Organization
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'My Organization']
+    priority: 0
+  - name: XPATH
+    value: //div[1]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[1]/div/div/div/ul/div/ul/div[1]/a
+    priority: 2
+- id: NuUn6T4_j0KAl3zN8UOpoA
+  name: Overview
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTA
+    name: Heading
+    source: System
+  locators:
+  - name: XPATH
+    value: //h2[. = 'Overview']
+    priority: 0
+  - name: XPATH
+    value: //h2
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div[1]/h2
+    priority: 2
+- id: GGGOExSDDUKLKM5-DISoaA
+  name: Overview2
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTk
+    name: ListItem
+    source: System
+  locators:
+  - name: XPATH
+    value: //li[. = 'Overview']
+    priority: 0
+  - name: XPATH
+    value: //li[1]
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div/ul/li[1]
+    priority: 2
+- id: r7E-vWWiOUCd-neR1SYDsQ
+  name: Identities
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Identities']
+    priority: 0
+  - name: XPATH
+    value: //li[2]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div/ul/li[2]/a
+    priority: 2
+- id: xixyGmPJ3EqTfQR05_B45g
+  name: Settings
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTE
+    name: Link
+    source: System
+  locators:
+  - name: XPATH
+    value: //a[. = 'Settings']
+    priority: 0
+  - name: XPATH
+    value: //li[3]/a
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div[1]/div/ul/li[3]/a
+    priority: 2
+- id: t9vbiBVuRESoBnDTB9V_dg
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[1]/div/input
+    priority: 3
+- id: cszLLo-0Pki51l2sdBxpCQ
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[2]/div/input
+    priority: 3
+- id: G7o2Sa3czk6aD-iIUPZ9ig
+  name: action
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='action']"
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Continue']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[2]/button
+    priority: 3
+projectParameters: []
+addons: []
