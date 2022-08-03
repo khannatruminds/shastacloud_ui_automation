@@ -1,7 +1,7 @@
-id: ZX_jRuW9yUGa3OKZUm4QIA
+id: E892RXNg_UumdvZ-aKQItA
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T14:51:36.8137128Z
+created: 2022-08-03T15:51:47.7229236Z
 protocol: 1
 tests:
 - id: 0SFogYyXfE-7P9CZdPmdjA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T14:40:06.0000000
-  modificationDate: 2022-08-03T14:51:17.0000000
+  modificationDate: 2022-08-03T15:51:37.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -50,11 +50,31 @@ tests:
     conditions: []
     validations: []
     contexts: []
+  - id: 2Vld7P74WUiZ59tRec_kMQ
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: KqCVk42axkOHorYD6ts2oA
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
   - id: STmJRBsX-0qc_C9bk5gPSA
     comments: ''
     enabled: true
     invertResult: false
-    order: 2
+    order: 3
     repeat: 1
     type: Action
     elementId: 18GtLJijw02B9tnu0cQycQ
@@ -78,7 +98,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 3
+    order: 4
     repeat: 1
     type: Action
     elementId: 8ju8tYIdJUCO55eMTbhY-A
@@ -102,7 +122,7 @@ tests:
     comments: ''
     enabled: true
     invertResult: false
-    order: 4
+    order: 5
     repeat: 1
     type: Action
     elementId: I8RSmf6hmkKWecbiS0pWpA
@@ -125,7 +145,7 @@ tests:
   - id: Khw-yY4MA0WkvpnDnv8n7w
     enabled: true
     invertResult: false
-    order: 5
+    order: 6
     repeat: 1
     type: Action
     elementId: pvJQDkZs6E6aikv-XjB5GA
@@ -145,7 +165,7 @@ tests:
   - id: dwJSJXHQS0iFx1h86-PZjQ
     enabled: true
     invertResult: false
-    order: 6
+    order: 7
     repeat: 1
     type: Action
     elementId: pvJQDkZs6E6aikv-XjB5GA
@@ -165,7 +185,7 @@ tests:
   - id: mPzibhIt-0-lm5qxwlJIDw
     enabled: true
     invertResult: false
-    order: 7
+    order: 8
     repeat: 1
     type: Action
     elementId: XP2Bj1bIaU2w70cysLJUWg
@@ -185,7 +205,7 @@ tests:
   - id: Iw70ihrCKUKwmPQ4QgWRIw
     enabled: true
     invertResult: false
-    order: 8
+    order: 9
     repeat: 1
     type: Action
     elementId: FYzUhkgw8022UX2mm9baPg
