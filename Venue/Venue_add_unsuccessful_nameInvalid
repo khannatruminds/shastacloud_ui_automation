@@ -1,7 +1,7 @@
-id: xZ8qQqd4wU-4yNRyqmYYgw
+id: RqJWfUwrGkCa_DJUI8pY4A
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T10:36:00.3332290Z
+created: 2022-08-03T12:28:14.2597654Z
 protocol: 1
 tests:
 - id: yVAxUvlHBEaV4zLxD_S8uQ
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T07:20:49.0000000
-  modificationDate: 2022-08-03T10:36:00.0000000
+  modificationDate: 2022-08-03T12:27:42.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -327,7 +327,11 @@ tests:
     - name: text
       value: Name should have only alpha-numeric characters
       direction: Input
-    conditions: []
+    conditions:
+    - parameter: '{{venue_name}}'
+      type: Contains
+      invert: false
+      value: '@'
     validations: []
     contexts: []
   parameters:
