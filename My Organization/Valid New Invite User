@@ -1,18 +1,18 @@
-id: 1CEKR3xe9UK9DNHFdDdoqg
+id: SzLHBalIY021yUcPwAb1ww
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T18:58:05.5952996Z
+created: 2022-08-03T19:32:49.8986245Z
 protocol: 1
 tests:
 - id: 9WRVgKOuKkOhCrHdpwFcmg
   name: Valid New Invite User
-  description: Valid Invite user modal form submission
+  description: Valid "Invite User" modal from submission as Platform Admin role
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T18:18:20.0000000
-  modificationDate: 2022-08-03T18:58:00.0000000
+  modificationDate: 2022-08-03T19:32:50.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -331,6 +331,7 @@ tests:
     type: Input
   tags:
   - MyOrganization
+  - Identities
 auxTests:
 - id: m4OogKGezEi_dAWv27d6zQ
   name: Invite Dashboard
