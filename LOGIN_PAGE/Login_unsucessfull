@@ -1,0 +1,360 @@
+id: W2cvPrIznEa3BPPa7DLIvw
+projectId: Kn-yyr8dzEW8BxxnZx-EfA
+projectName: shastacloud_ui_automation
+created: 2022-08-03T10:11:12.6833491Z
+protocol: 1
+tests:
+- id: bZt9c4QJtEa8l9uhtkbufA
+  name: Login_unsucessfull
+  description: All unsuccessful login test cases with invalid details
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-07-25T11:17:22.0000000
+  modificationDate: 2022-08-03T10:11:10.0000000
+  settings:
+    automationAssistant: true
+    appId: uew3Eq13WkmYCgW_RLbXNA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uew3Eq13WkmYCgW_RLbXNA
+    name: Shasta Web
+    url: https://dev.shastacloud.com/
+    platform: Web
+  steps:
+  - id: -Ar-qIO7A0KBDIp-zIVIHQ
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: oyUoCkDzz0eNucJ126JHJw
+    comments: adding username
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: t9vbiBVuRESoBnDTB9V_dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: -xpYnZDDCEemLWlBslJF1w
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: t9vbiBVuRESoBnDTB9V_dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{invalid_username}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: kXUEN8Lly0eZxS_83pwyvQ
+    comments: >
+      adding password
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: ZF-DFpB6V0y9m3_pVzqtSw
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: '{{in_valid_pswrd}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: cmbJQ5LwPk6T_1W9UYwO_Q
+    comments: Login Button
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: G7o2Sa3czk6aD-iIUPZ9ig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: nS-rNUJFM0Oe5dwobXIjCw
+    enabled: true
+    invertResult: true
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: e38c4eOifUuiOkckuijMfw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions:
+    - parameter: '{{ApplicationURL}}'
+      type: Equals
+      invert: false
+      value: https://dev.shastacloud.com/dashboard
+    validations: []
+    contexts: []
+  - id: nPc3PbPKZ0i3qZwBwweijA
+    enabled: true
+    invertResult: true
+    order: 8
+    repeat: 1
+    type: Action
+    elementId: BUTP-UUnW0-Bvjx1xvsYqw
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions:
+    - parameter: '{{ApplicationURL}}'
+      type: Equals
+      invert: false
+      value: https://dev.shastacloud.com/dashboard
+    validations: []
+    contexts: []
+  - id: j1DL_NXBskWfA5waHCnwLw
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 9
+    repeat: 1
+    type: Action
+    elementId: oExD8k3OlUOug1LYTbKpDQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: Wrong email or password
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://dev.shastacloud.com/
+    type: Input
+  - name: invalid_username
+    description: ''
+    value: Bajay.kumawat@truminds.com
+    type: Input
+  - name: in_valid_pswrd
+    description: ''
+    value: Abcd123@#
+    type: Input
+  tags:
+  - invalid
+  - unsuccessful
+  - not-blank
+auxTests: []
+elements:
+- id: t9vbiBVuRESoBnDTB9V_dg
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[1]/div/input
+    priority: 3
+- id: cszLLo-0Pki51l2sdBxpCQ
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[2]/div/input
+    priority: 3
+- id: G7o2Sa3czk6aD-iIUPZ9ig
+  name: action
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='action']"
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Continue']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[2]/button
+    priority: 3
+- id: oExD8k3OlUOug1LYTbKpDQ
+  name: Wrong email or password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjU
+    name: span
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#error-element-password'
+    priority: 0
+  - name: XPATH
+    value: "//span[. = '\n                          \n                        Wrong email or password']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]/span
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[2]/span
+    priority: 3
+- id: e38c4eOifUuiOkckuijMfw
+  name: logout button
+  type:
+    id: jUwODgyNjAyNzk2NTk1NTI
+    name: Image
+    source: System
+  locators:
+  - name: XPATH
+    value: //button/img
+    priority: 0
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[1]/nav/div/button/img
+    priority: 1
+- id: BUTP-UUnW0-Bvjx1xvsYqw
+  name: Log Out
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: XPATH
+    value: //button[. = 'Log Out']
+    priority: 0
+  - name: XPATH
+    value: //nav/div/div/button
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[1]/nav/div/div/button
+    priority: 2
+projectParameters: []
+addons: []
