@@ -1,7 +1,7 @@
-id: Tx96CxmF0EmGhJAPwFcT2w
+id: V_lhaM6mvkmPHMqMmlt37g
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T18:12:24.3522644Z
+created: 2022-08-03T18:14:43.6534290Z
 protocol: 1
 tests:
 - id: 0SFogYyXfE-7P9CZdPmdjA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T14:40:06.0000000
-  modificationDate: 2022-08-03T18:12:05.0000000
+  modificationDate: 2022-08-03T18:14:32.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -159,6 +159,30 @@ tests:
       id: 02d572b2-d610-4700-9ad3-40076ddb9807
       source: System
     parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: GIUYqkgbPEqY81BUntBDqg
+    comments: ''
+    enabled: true
+    invertResult: false
+    order: 7
+    repeat: 1
+    type: Action
+    elementId: WOCypX1KEkW8vEN3eWwvMg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 85da72d0-c5a4-4587-be33-8cb3b5fa7910
+      source: System
+    parameterMaps:
+    - name: text
+      value: The identity already exists.
+      direction: Input
     conditions: []
     validations: []
     contexts: []
@@ -1031,5 +1055,21 @@ elements:
   - name: XPATH
     value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div
     priority: 1
+- id: WOCypX1KEkW8vEN3eWwvMg
+  name: The identity already exists.
+  type:
+    id: jUwODgyNjAyNzk2NTk1NjM
+    name: Div
+    source: System
+  locators:
+  - name: XPATH
+    value: //div[. = 'The identity already exists.']
+    priority: 0
+  - name: XPATH
+    value: //div[2]/div[2]/div/div/div/div/div
+    priority: 1
+  - name: XPATH
+    value: /html/body/div/div[1]/div/div[2]/div[2]/div/div/div/div/div
+    priority: 2
 projectParameters: []
 addons: []
