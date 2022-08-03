@@ -1,18 +1,18 @@
-id: 0FY6RkOJnk-GYVlsx7p-cQ
+id: BMEZLg-nukGf93GU6qKsow
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T10:36:53.1497711Z
+created: 2022-08-03T11:15:35.5470805Z
 protocol: 1
 tests:
 - id: trJe0-RIe0O3hOC3xCdemA
-  name: Mail_unsuccesful
+  name: Forget_Mail_unsuccesful
   description: In valid parameters for forget password for all roles
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-26T06:44:18.0000000
-  modificationDate: 2022-08-03T10:36:53.0000000
+  modificationDate: 2022-08-03T11:15:35.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
