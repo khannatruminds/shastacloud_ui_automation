@@ -1,0 +1,229 @@
+id: Di4sttC9F0-U067rsipw1w
+projectId: Kn-yyr8dzEW8BxxnZx-EfA
+projectName: shastacloud_ui_automation
+created: 2022-08-03T11:16:46.1027451Z
+protocol: 1
+tests:
+- id: b4lw-tIatUajFEJAuV5_8w
+  name: Platform_admin_login
+  description: Platform admin login .
+  platform: Web
+  type: Web
+  driverType: Chrome
+  version: 0.1
+  creationDate: 2022-07-26T05:54:49.0000000
+  modificationDate: 2022-08-03T11:16:44.0000000
+  settings:
+    automationAssistant: true
+    appId: uew3Eq13WkmYCgW_RLbXNA
+    stepSleepTime: 500
+    stepTimeout: 15000
+    stepSleepTiming: Before
+    stepFailureBehaviorType: Abort
+    stepTakeScreenshotConditionType: Failure
+  application:
+    id: uew3Eq13WkmYCgW_RLbXNA
+    name: Shasta Web
+    url: https://dev.shastacloud.com/
+    platform: Web
+  steps:
+  - id: UF1t-2GVOk6Jla0YXwq1NA
+    comments: Navigates the specified URL (Auto-generated)
+    enabled: true
+    invertResult: false
+    order: 1
+    repeat: 1
+    type: Action
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 49c5d8d8-4ba8-42f0-823d-702e6acfb23a
+      source: System
+    parameterMaps:
+    - name: url
+      value: '{{ApplicationURL}}'
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: plabeRZeekiDctwD-CjWwA
+    enabled: true
+    invertResult: false
+    order: 2
+    repeat: 1
+    type: Action
+    elementId: t9vbiBVuRESoBnDTB9V_dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: R7nSKWMgf0SH5Qk35Gz_LQ
+    enabled: true
+    invertResult: false
+    order: 3
+    repeat: 1
+    type: Action
+    elementId: t9vbiBVuRESoBnDTB9V_dg
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: ajay.kumawat@truminds.com
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: CuGf-ReblkG2rDafC3U8_g
+    comments: textbox
+    enabled: true
+    invertResult: false
+    order: 4
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  - id: rkR5fGEF706AGKb1ssjeog
+    enabled: true
+    invertResult: false
+    order: 5
+    repeat: 1
+    type: Action
+    elementId: cszLLo-0Pki51l2sdBxpCQ
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 6f94fdaa-0041-4265-b73b-ecfcbe702d66
+      source: System
+    parameterMaps:
+    - name: keys
+      value: Abcd123@#
+      direction: Input
+    conditions: []
+    validations: []
+    contexts: []
+  - id: SMItAhBbR0esLVPH_UWdhw
+    enabled: true
+    invertResult: false
+    order: 6
+    repeat: 1
+    type: Action
+    elementId: G7o2Sa3czk6aD-iIUPZ9ig
+    settings:
+      sleepTime: -1
+      timeout: -1
+      sleepTiming: Inherit
+      failureBehaviorType: Inherit
+      takeScreenshotConditionType: Inherit
+    action:
+      id: 02d572b2-d610-4700-9ad3-40076ddb9807
+      source: System
+    parameterMaps: []
+    conditions: []
+    validations: []
+    contexts: []
+  parameters:
+  - name: ApplicationURL
+    description: Auto generated application URL parameter
+    value: https://dev.shastacloud.com/
+    type: Input
+  tags:
+  - platform-admin
+  - login
+  - presetup
+auxTests: []
+elements:
+- id: t9vbiBVuRESoBnDTB9V_dg
+  name: username
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#username'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='username']"
+    priority: 1
+  - name: XPATH
+    value: //div[1]/div/input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[1]/div/input
+    priority: 3
+- id: cszLLo-0Pki51l2sdBxpCQ
+  name: password
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDY
+    name: Textbox
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: '#password'
+    priority: 0
+  - name: CSSSELECTOR
+    value: "[name='password']"
+    priority: 1
+  - name: XPATH
+    value: //div[2]//input
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[1]/div/div[2]/div/input
+    priority: 3
+- id: G7o2Sa3czk6aD-iIUPZ9ig
+  name: action
+  type:
+    id: jUwODgyNjAyNzk2NTk1NDc
+    name: Button
+    source: System
+  locators:
+  - name: CSSSELECTOR
+    value: "[name='action']"
+    priority: 0
+  - name: XPATH
+    value: //button[. = 'Continue']
+    priority: 1
+  - name: XPATH
+    value: //div[2]/button
+    priority: 2
+  - name: XPATH
+    value: /html/body/div/main/section/div/div/div/form/div[2]/button
+    priority: 3
+projectParameters: []
+addons: []
