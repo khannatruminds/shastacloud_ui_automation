@@ -1,7 +1,7 @@
-id: Wf2Tu8Lri0CEMiS0U48IYA
+id: 0Z4ajKAuc0u1vSobYTVSpA
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T10:37:24.0301675Z
+created: 2022-08-03T11:16:46.1028099Z
 protocol: 1
 tests:
 - id: HLPYEPXodU-2MlzX8wYuLA
@@ -200,7 +200,7 @@ auxTests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-26T05:54:49.0000000
-  modificationDate: 2022-08-03T10:37:23.0000000
+  modificationDate: 2022-08-03T11:16:44.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -277,6 +277,7 @@ auxTests:
     validations: []
     contexts: []
   - id: CuGf-ReblkG2rDafC3U8_g
+    comments: textbox
     enabled: true
     invertResult: false
     order: 4
