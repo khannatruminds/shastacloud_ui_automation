@@ -1,7 +1,7 @@
-id: ujAOXEkfkUWJKqmJAEmL5A
+id: 1CEKR3xe9UK9DNHFdDdoqg
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T18:23:16.8560261Z
+created: 2022-08-03T18:58:05.5952996Z
 protocol: 1
 tests:
 - id: 9WRVgKOuKkOhCrHdpwFcmg
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T18:18:20.0000000
-  modificationDate: 2022-08-03T18:23:15.0000000
+  modificationDate: 2022-08-03T18:58:00.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -111,7 +111,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: New User
+      value: '{{username}}'
       direction: Input
     conditions: []
     validations: []
@@ -154,7 +154,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: lavirajsharma1@mailinator.com
+      value: '{{ValidNewEmailid}}'
       direction: Input
     conditions: []
     validations: []
@@ -197,7 +197,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 9229065979
+      value: '{{validPhonenumber}}'
       direction: Input
     conditions: []
     validations: []
@@ -316,6 +316,18 @@ tests:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://dev.shastacloud.com/
+    type: Input
+  - name: username
+    description: alphanumeric
+    value: Newuser23
+    type: Input
+  - name: ValidNewEmailid
+    description: valid new email id , that doesn't exist
+    value: lavirajsharma23@mailinator.com
+    type: Input
+  - name: validPhonenumber
+    description: ''
+    value: 7229065979
     type: Input
   tags:
   - MyOrganization
