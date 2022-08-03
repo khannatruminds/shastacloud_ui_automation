@@ -1,18 +1,18 @@
-id: JE6c-OL7t0Co4xXYiJoobQ
+id: LkauXzwlDkCsRAF3hzjcBg
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T19:53:59.9255811Z
+created: 2022-08-03T20:22:06.2233844Z
 protocol: 1
 tests:
 - id: LHkD696NYUKT7pTSejD0SA
-  name: Invite_Identity_Successa_PlatformRole
-  description: Valid "Invite User" modal from submission as Platform Admin role
+  name: Invite_Identity_Success_PlatformSupport
+  description: Valid "Invite User" modal from submission as Platform Support role
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T19:43:05.0000000
-  modificationDate: 2022-08-03T19:53:44.0000000
+  modificationDate: 2022-08-03T20:22:06.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
