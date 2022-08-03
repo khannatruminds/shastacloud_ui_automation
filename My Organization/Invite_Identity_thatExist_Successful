@@ -1,18 +1,18 @@
-id: V_lhaM6mvkmPHMqMmlt37g
+id: n55lwpuuR0CjRZikX6f7mw
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T18:14:43.6534290Z
+created: 2022-08-03T19:58:47.6356396Z
 protocol: 1
 tests:
 - id: 0SFogYyXfE-7P9CZdPmdjA
-  name: Invite_Identity_Successful
+  name: Invite_Identity_thatExist_Successful
   description: When User enter email that already exist
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T14:40:06.0000000
-  modificationDate: 2022-08-03T18:14:32.0000000
+  modificationDate: 2022-08-03T19:58:47.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
