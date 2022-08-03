@@ -1,7 +1,7 @@
-id: NIVk2nqs1Um-E5mansJuiQ
+id: EWrBG9cvWEmkseN_-5VuLA
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T19:47:52.6218384Z
+created: 2022-08-03T19:51:44.7536629Z
 protocol: 1
 tests:
 - id: LHkD696NYUKT7pTSejD0SA
@@ -12,7 +12,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T19:43:05.0000000
-  modificationDate: 2022-08-03T19:47:43.0000000
+  modificationDate: 2022-08-03T19:51:37.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -88,7 +88,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 'Anjali '
+      value: ' {{validname}}'
       direction: Input
     conditions: []
     validations: []
@@ -131,7 +131,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: anjalisingal@gmail.com
+      value: '{{validemail}}'
       direction: Input
     conditions: []
     validations: []
@@ -174,7 +174,7 @@ tests:
       source: System
     parameterMaps:
     - name: keys
-      value: 8989898989
+      value: '{{phonenumber}}'
       direction: Input
     conditions: []
     validations: []
@@ -373,6 +373,18 @@ tests:
   - name: ApplicationURL
     description: Auto generated application URL parameter
     value: https://dev.shastacloud.com/
+    type: Input
+  - name: validname
+    description: Name should be alphanumeric
+    value: Anjali
+    type: Input
+  - name: validemail
+    description: email should be valid
+    value: anjalisingal@gmail.com
+    type: Input
+  - name: phonenumber
+    description: validphonenumber
+    value: 8989899898
     type: Input
 auxTests: []
 elements:
