@@ -1,7 +1,7 @@
-id: Wu9_rYYzAkiyGXYy-D53DQ
+id: urUWNZ9npky7hZIDIuXF8w
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T09:31:22.2266395Z
+created: 2022-08-03T10:34:27.3651797Z
 protocol: 1
 tests:
 - id: 10-TC12du0Kci49MIKYezw
@@ -15,7 +15,7 @@ tests:
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T07:55:05.0000000
-  modificationDate: 2022-08-03T09:31:13.0000000
+  modificationDate: 2022-08-03T10:34:27.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -54,6 +54,8 @@ tests:
     validations: []
     contexts: []
   - id: FoS6XSqj6EG6YDW-GyHJww
+    comments: >
+      Login as diffrent afmin roles
     enabled: true
     invertResult: false
     order: 2
@@ -440,6 +442,9 @@ tests:
     description: ''
     value: sydey
     type: Input
+  tags:
+  - Subvenue
+  - delete
 auxTests: []
 elements:
 - id: t9vbiBVuRESoBnDTB9V_dg
