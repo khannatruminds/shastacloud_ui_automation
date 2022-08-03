@@ -1,18 +1,18 @@
-id: i6GTu86kl0m0EGITuDT0ZA
+id: -S8rQkqiV0CqIdRJf7R7uw
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T10:37:03.1798406Z
+created: 2022-08-03T11:15:26.2610917Z
 protocol: 1
 tests:
 - id: wgOSPgWPt0Od7U7ju4FC3A
-  name: Mail_successful
+  name: Forget_Mail_successful
   description: Successful reset password mail sent through all roles
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-07-26T06:41:28.0000000
-  modificationDate: 2022-08-03T10:37:03.0000000
+  modificationDate: 2022-08-03T11:15:26.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
