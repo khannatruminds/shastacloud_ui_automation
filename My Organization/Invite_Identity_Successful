@@ -1,18 +1,18 @@
-id: xheZtIkd20SChkRwNR4gbA
+id: j_oJ21EB10GlTK9_unIUgA
 projectId: Kn-yyr8dzEW8BxxnZx-EfA
 projectName: shastacloud_ui_automation
-created: 2022-08-03T15:54:30.0700131Z
+created: 2022-08-03T18:07:14.9139481Z
 protocol: 1
 tests:
 - id: 0SFogYyXfE-7P9CZdPmdjA
   name: Invite_Identity_Successful
-  description: When User enter all field correctly
+  description: When User enter email that already exist
   platform: Web
   type: Web
   driverType: Chrome
   version: 0.1
   creationDate: 2022-08-03T14:40:06.0000000
-  modificationDate: 2022-08-03T15:54:27.0000000
+  modificationDate: 2022-08-03T18:07:14.0000000
   settings:
     automationAssistant: true
     appId: uew3Eq13WkmYCgW_RLbXNA
@@ -219,6 +219,9 @@ tests:
     description: ''
     value: 7297069879
     type: Input
+  tags:
+  - platform-admin
+  - invite
 auxTests:
 - id: m4OogKGezEi_dAWv27d6zQ
   name: Invite Dashboard
